@@ -21,142 +21,142 @@ new Vue({
             if(blan == 'Januari'){
                 return this.watak = `
                 ·Tenang dan berwibawa
-                  ·Suka berterus terang dan tidak suka basa-basi
-                  ·andai menyimpan rahasia dan bisa dipercaya
-                  ·Disukai banyak orang karena selalu kelihatan ceria
-                  · Mandiri dan tidak suka meminta bantuan pada orang lain
-                  ·Pandai mengatur keuangan
-                  ·Agak pendiam dan lebih senang memperhatikan dirinya sendiri
+                  ·Suka berterus terang dan tidak suka basa-basi (to the point)
+                  ·pandai menyimpan rahasia dan bisa dipercaya (ini yang bagus)
+                  ·Disukai banyak orang karena selalu kelihatan ceria (yang penting nda ketawa-ketawa sendiri)
+                  ·Mandiri dan tidak suka meminta bantuan pada orang lain (antara Mandiri dan sombong)
+                  ·Pandai mengatur keuangan (irit)
+                  ·Agak pendiam dan lebih senang memperhatikan dirinya sendiri (lumayan tertutup)
                   ·Teliti dan tidak sembarangan melakukan pekerjaan.`
              }else if(blan == 'Februari'){
                 return this.watak = `
-                ·Mempunyai hati yang tulus
-                ·Perasaannya peka dan mudah tersinggunng
-                ·Senang dipuji dan selalu menuruti apaa yang diinginkannya
-                ·Suka humor dan hormat pada siapa sajaa
-                ·Keras hati dan mempunyai pendirian teetap
-                ·Agak pemalas dan suka mengingkari janji`
+                ·Mempunyai hati yang tulus 
+                ·Perasaannya peka dan mudah tersinggung (jadi jangan asal bicara sama orang yang lahir bulan februari)
+                ·Senang dipuji dan selalu menuruti apa yang diinginkannya
+                ·Suka humor dan hormat pada siapa saja 
+                ·Keras hati dan mempunyai pendirian tetap 
+                ·Agak pemalas dan suka mengingkari janji (ini mines nya)`
              }else if(blan == 'Maret'){
                 return this.watak =`
-                ·Baik hati dan suka menolong sesama.
-                ·Suka kehidupan yang serba wah.
-                ·Seleranya tinggi.
-                ·Tidak tegaan dan selalu memberi pada orang yang kesusahan.
-                ·Agak pemalu, namun jujur dan tidak peernah bohong.
-                ·Mudah terpengaruh dan tidak kuat mengghadapi godaan.
-                ·Suka melalaikan kesehatan dirinya senndiri.`
+                ·Baik hati dan suka menolong sesama (pertahankan)
+                ·Suka kehidupan yang serba wah (yang penting jangan matre)
+                ·Seleranya tinggi 
+                ·Tidak tegaan dan selalu memberi pada orang yang kesusahan (Kalo yang ini pertahankan)
+                ·Agak pemalu, namun jujur dan tidak pernah bohong (good)
+                ·Mudah terpengaruh dan tidak kuat mengghadapi godaan (pasti banyak dosanya wkwkwkwk)
+                ·Suka melalaikan kesehatan dirinya sendiri.`
              }else if(blan == 'April'){
                 return this.watak = `
-                ·Tidak mau mengalah dan selalu ingin menang sendiri
-                ·Pembosan
-                ·Senang dipuji
-                ·Agak boros walau pandai mencari uang
-                ·Mempunyai otak yang cerdas namun tidak suka diperintah
-                ·Tak pernah memilih dalam berteman`
+                ·Tidak mau mengalah dan selalu ingin menang sendiri (kadang kadang)                
+                ·Senang dipuji (caper caper sedikit)
+                ·Agak boros walau pandai mencari uang (visi misi foya foya wkwkwkwk)
+                ·Mempunyai otak yang cerdas namun tidak suka diperintah (kecuali ba perintah xixixixi)
+                ·Tak pernah memilih dalam berteman (yang penting asik, sikat....)`
              }else if(blan == 'Mei'){
                 return this.watak = `
-                ·         Pandai menguasai perasaan
-                ·         Pandai mengambil hati orang lain
-                ·         Punya selera tinggi dan senang kehiduupan yang serbah wah.
-                ·         Senang menunda pekerjaan.
+                ·         Pandai menguasai perasaan (tidak mudah tergodah)
+                ·         Pandai mengambil hati orang lain (rajanya caper wkwkwk)
+                ·         Punya selera tinggi dan senang kehidupan yang serbah wah 
+                ·         Senang menunda pekerjaan (apalagi kalo lagi nda mood)
                 ·         Agak boros walau rejekinya bagus.
-                ·         Tidak suka basa-basi dan tidak senangg dipuji.`
+                ·         Tidak suka basa-basi dan tidak senang dipuji.`
             }else if(blan == 'Juni'){
-                return this.watak = `·         Romantis dan suka menolong
-                ·         Tidak mempunyai pendirian tetap
-                ·         Suka berpikir yang muluk-muluk
-                ·         Mudah tersinggung bila perasaanya terrsentuh
-                ·         Agak pemalas dan baru mau bekerja billa di iming-iming hasil besar
-                ·         Selalu ceria walau hatinya sedang kessal.`
+                return this.watak = `
+				·         Romantis dan suka menolong (pertahankan)
+                ·         Tidak mempunyai pendirian tetap (mudah goya)
+                ·         Suka berpikir yang muluk-muluk (seperti cita-cita, intinya yang bagus-bagus)
+                ·         Mudah tersinggung bila perasaanya tersentuh (terharuh, terbawah perasaan)
+                ·         Agak pemalas dan baru mau bekerja bila di iming-iming hasil besar 
+                ·         Selalu ceria walau hatinya sedang kesal (rajanya sandiwara wkwkwkwk).`
             }else if(blan == 'Juli'){
                 return this.watak =`
-                ·         Senang berkhayal
+                ·         Senang berkhayal (halusinasi)
 
-                ·         Kalau sudah marah, kata-katanya tajam
+                ·         Kalau sudah marah, kata-katanya tajam (menusuk skali)
 
-                ·         Tidak mempunyai pendirian tetap
+                ·         Tidak mempunyai pendirian tetap 
 
-                ·         Senang dipuji
+                ·         Senang dipuji 
 
                 ·         Suka menolong pada sesama
 
-                ·         Pandai bicara dan berotak cerdas
+                ·         Pandai bicara dan berotak cerdas (cocok ikut demo wkwkwk)
 
                 ·         Agak pemalas
                 `
             }else if(blan == 'Agustus'){
                 return this.watak =`
-                ·         Mempunyai perasaan yang peka/halus
+                ·         Mempunyai perasaan yang peka/halus (diam-diam menghanyutkan)
 
-                ·         Cepat tersinggung
+                ·         Cepat tersinggung (padahal bukan dia yang di singgung)
 
-                ·         Suka menghayal dan berpikiran yang muluk-muluk
+                ·         Suka menghayal dan berpikiran yang muluk-muluk (seperti menghayal cita-cita nya)
 
-                ·         Tidak mudah terpengaruh
+                ·         Tidak mudah terpengaruh 
 
                 ·         Agak pemalas
 
-                ·         Kalau bekerja lebih menuruti kehendak hatinya sendiri.
+                ·         Kalau bekerja lebih menuruti kehendak hatinya sendiri (alias kerja pake hati bukan otak.
                 `
             }else if(blan == 'September'){
                 return this.watak =`
-                ·         Mudah tersinggung dan cepat naik darah
+                ·         Mudah tersinggung dan cepat naik darah (yang penting jangan sampe stroke)
 
-                ·         Baik hati dan jujur
+                ·         Baik hati dan jujur (ini bagusnya)
 
-                ·         Bisa menyimpan rahasia
+                ·         Bisa menyimpan rahasia 
 
-                ·         Suka berfoya-foya
+                ·         Suka berfoya-foya (visi misi foya foya wkwkwk)
 
-                ·         Pandai menyimpan uang namun tidak pelit
+                ·         Pandai menyimpan uang namun tidak pelit 
 
                 ·         Suka menolong sesama dan pandai mendidik anak
                 `
             }else if(blan == 'Oktober'){
                 return this.watak =`
-                ·         Berjiwa besar dan mau mengalah
+                ·         Berjiwa besar dan mau mengalah (dalam artian tidak suka berdebat)
 
-                ·         Pandai bicara
+                ·         Pandai bicara 
 
                 ·         Cerdas dan baik hati
 
                 ·         Memiliki tekad yang kuat
 
-                ·         Tidak sabaran dan agak boros
+                ·         Tidak sabaran dan agak boros (liat, suka, beli)
 
-                ·         Pikirannya tidak tetap dan selalu berrubah-ubah
+                ·         Pikirannya tidak tetap dan selalu berubah-ubah 
                 `
             }else if(blan == 'November'){
                 return this.watak =`
-                ·         Tabah dan kuat dalam menghadapi segala cobaan
+                ·         Tabah dan kuat dalam menghadapi segala cobaan (rajanya sabar wkwkwk)
 
-                ·         Pandai mengerjakan setiap pekerjaan
+                ·         Pandai mengerjakan setiap pekerjaan (multi talent)
                 
-                ·         Pandai mengambil hati orang lain
+                ·         Pandai mengambil hati orang lain 
                 
                 ·         Agak pemalas dan suka menunda pekerjaaan
                 
-                ·         Banyak berpikir
+                ·         Banyak berpikir (tapi jarang stres wkwkwk)
                 
-                ·         Agak pendendam dan tidak mudah memberi  pada orang yang bersalah
+                ·         Agak pendendam dan tidak mudah memberi maaf pada orang yang bersalah (ini mines nya)
                 
                 ·         Keras hati
                 `
             }else if(blan == 'Desember'){
                 return this.watak =`
-                ·         Mudah menaruh rasa percaya pada orangg lain
+                ·         Mudah menaruh rasa percaya pada orangg lain (siap di kecewakan wkwkwk)
 
-                ·         Kalau mengerjakan sesuatu suka tergessa-gesa
+                ·         Kalau mengerjakan sesuatu suka tergessa-gesa (mau cepat selesai)
 
-                ·         Tidak sabaran
+                ·         Tidak sabaran 
 
-                ·         Tidak mau mengalah dan selalu ingin menang sendiri
+                ·         Tidak mau mengalah dan selalu ingin menang sendiri (egois)
 
-                ·         Mudah terpengaruh
+                ·         Mudah terpengaruh 
 
-                ·         Jujur dan baik hati
+                ·         Jujur dan baik hati (ini bagus nya)
 
-                ·         – Pemborosan dan suka memaksakan kehendak
+                ·         Pemborosan dan suka memaksakan kehendak
                 `
             }
 
@@ -214,7 +214,7 @@ new Vue({
            var date = new Date()
             switch (date.getHours()) {
                 case 5: case 6: case 7: case 8: case 9: case 10:
-                    return this.waktus = 'Slamat Pagi'
+                    return this.waktus = 'Slamat Pagi...awali harimu dengan senyuman'
                     break;
                 case 10: case 11: case 12: case 13: case 14:
                     return this.waktus = 'Slamat Siang'
@@ -223,10 +223,10 @@ new Vue({
                     return this.waktus = 'Slamat Sore'
                     break;
                 case 19: case 20: case 21: case 22: case 23: case 24:
-                    return this.waktus = 'Slamat Malam'
+                    return this.waktus = 'Slamat Malam...jaga kesehatan , jangan begadang !'
                     break;
                 default:
-                    return this.waktus = 'ndak tidur ko ?'
+                    return this.waktus = 'ini sudah jam berapa ? jaga kesehatan lah ! jangan begadang'
                     break;
             }
         }
