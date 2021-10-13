@@ -214,19 +214,19 @@ new Vue({
            var date = new Date()
             switch (date.getHours()) {
                 case 5: case 6: case 7: case 8: case 9: case 10:
-                    return this.waktus = 'Selamat Pagi'
+                    return this.waktus = 'Slamat Pagi'
                     break;
                 case 10: case 11: case 12: case 13: case 14:
-                    return this.waktus = 'Selamat Siang'
+                    return this.waktus = 'Slamat Siang'
                     break;
                 case 15: case 16: case 17: case 18:
-                    return this.waktus = 'Selamat Sore'
+                    return this.waktus = 'Slamat Sore'
                     break;
                 case 19: case 20: case 21: case 22: case 23: case 24:
-                    return this.waktus = 'Selamat Malam'
+                    return this.waktus = 'Slamat Malam'
                     break;
                 default:
-                    return this.waktus = 'Tidak Tidur ?'
+                    return this.waktus = 'ndak tidur ko ?'
                     break;
             }
         }
