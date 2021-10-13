@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="img/smile-4998846_960_720.webp" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <title>Karakter Manusia</title>
+</head>
+<body>
+    <div id="apps">
+        
+        <div class="container shadow p-3 mt-5 mb-5 bg-body rounded">
+                <h4 class="mb-3"><b>Karakter Manusia <i class="bi bi-emoji-laughing"></i></b> </h4>
+            <div class="input-group flex-nowrap mb-3">
+                <input v-model="nama" type="text" class="form-control" placeholder="Masukan Nama" aria-label="Username" aria-describedby="addon-wrapping">
+            </div>
+            <div class="input-group mb-3">
+                <select class="form-select" v-model="tanggalValue">
+                    <option disabled selected>-- Tanggal Lahir --</option>
+                    <option v-for="tg in tanggal" :value="tg">{{ tg }}</option>
+                </select>
+            </div>
+            <template v-if="bulans === 1">
+                <div class="input-group mb-3">
+                    <select class="form-select" v-model="bulanValue">
+                        <option disabled selected>-- Bulan Lahir --</option>
+                        <option v-for="bln in bulan" :value="bln">{{ bln }}</option>
+                    </select>
+                </div>
+            </template>
+
+            <button type="submit" @click="sub"  class="btn btn-primary">Submit</button>
+            <button type="submit" @click="reload"  class="btn btn-danger">Refrest</button>
+            <div class="text-center mt-3">
+                <template v-if="nama.length > 0">
+                    <h4> {{waktu}}, {{ nama }} </h4>
+                </template> 
+                <template v-else></template> 
+            </div>
+            <template v-if="sifat.length > 0 && watak.length > 0">
+                <div class="mt-4">
+                    <h4>Sifat Anda </h4>
+                    <p>" {{ sifat }} "</p>
+                </div>
+                <hr>
+                <div class="mt-4">
+                    <h4>Watak Anda </h4>
+                    <p>" {{ watak }} "</p>
+                </div>
+            </template>
+            <template v-else></template>
+        </div>
+    </div>
+</body>
+<footer class="text-center">
+    <p class="btn">Contact Me : <a href="https://web.facebook.com/lampungprov.go.id">Geraldine Firdaus</a></p>
+</footer>
+<script src="js/Vue.js"></script>
+<script src="js/script.js"></script>
+</html>
