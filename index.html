@@ -7,6 +7,12 @@
     <link rel="shortcut icon" href="img/smile-4998846_960_720.webp" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+	<Style type="text/css">
+/* Button 1  */
+a.btInIsmynr1{margin:3px;height:30px auto;padding:5px 10px;color:#006894;background-color:#fff;border:3px solid #006894;float:none;display:inline-block;text-decoration:none;overflow:hidden;text-align:center;transition:all 0.2s ease;line-height:1.6;font-size:16px;font-family:'Kanit',sans-serif}
+a.btInIsmynr1:hover{background-color:#006894;color:#fff}
+@media only screen and(max-width:720px){btInIsmynr1:width:95%}
+</style>
     <title>Karakter Manusia by raldi</title>
 </head>
 <body bgcolor="yellow">
@@ -15,7 +21,7 @@
         <div class="container shadow p-3 mt-5 mb-5 bg-body rounded">
                 <h4 class="mb-3"><b>Karakter Manusia By Raldi<i class="bi bi-emoji-laughing"></i></b> </h4>
             <div class="input-group flex-nowrap mb-3">
-                <input v-model="nama" type="text" class="form-control" placeholder="kasih masuk ko nama mu" aria-label="Username" aria-describedby="addon-wrapping">
+                <input v-model="nama" required autocomplete="off" type="text" class="form-control" placeholder="kasih masuk ko nama mu" aria-label="Username" aria-describedby="addon-wrapping">
             </div>
             <div class="input-group mb-3">
                 <select class="form-select" v-model="tanggalValue">
@@ -32,8 +38,8 @@
                 </div>
             </template>
 
-            <button type="submit" @click="sub"  class="btn btn-primary">Pencet</button>
-            <a href="https://raldifingerstyle.github.io/hitungan-hati/ " ><button class="btn btn-danger">lanjut</button>
+            <button type="submit" @click="sub"  class="btn btn-primary">cek</button>
+            <button type="submit" @click="reload"  class="btn btn-danger">Ulang</button>
             <div class="text-center mt-3">
                 <template v-if="nama.length > 0">
                     <h4> {{waktu}}, {{ nama }} </h4>
@@ -55,13 +61,10 @@
         </div>
     </div>
 </body>
-<footer class="text-center" bgcolor="yellow">
-	
-    <p class="btn">Contact Me via facebook:</br> <a href="https://www.facebook.com/raldi.programmer">klik di sini untuk terhubung dengan saya di facebook</a></p></br>
-	<p class="btn">Contact Me via instagram:</br> <a href="http://www.instagram.com/raldi_setiawan" ">klik di sini untuk terhubung dengan saya di instagram</a></p></br>
-	<p class="btn">Contact Me via whatsapp:</br> <a href=" https://api.whatsapp.com/send?phone=+6285399791346&text=hay...%20admin%20saya%20(ganti%20nama%20kamu)">klik di sini untuk terhubung dengan saya di whatsapp</a></p>
-	
+<footer align="center">
+    <a class="btInIsmynr1" href="https://raldifingerstyle.github.io/hitungan-hati/" title="Klik Disini" align="center">lanjut</a>
 </footer>
+
 <script src="js/Vue.js"></script>
 <script src="js/script.js"></script>
 </html>
