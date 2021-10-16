@@ -19,9 +19,11 @@ a.btInIsmynr1:hover{background-color:#006894;color:#fff}
     <div id="apps">
         
         <div class="container shadow p-3 mt-5 mb-5 bg-body rounded">
-                <h4 class="mb-3"><b>Karakter Manusia By Raldi<i class="bi bi-emoji-laughing"></i></b> </h4>
-            <div class="input-group flex-nowrap mb-3">
-                <input v-model="nama" required autocomplete="off" type="text" class="form-control" placeholder="kasih masuk ko nama mu" aria-label="Username" aria-describedby="addon-wrapping">
+                <h4 class="mb-3"><b>Karakter Manusia By Raldi <i class="bi bi-emoji-laughing"></i></b> </h4>             
+            <div class="input-group flex-nowrap mb-3">  
+                
+                <input v-model="nama" type="text" class="form-control" placeholder="kasih masuk ko nama mu" aria-label="Username" aria-describedby="addon-wrapping">
+                
             </div>
             <div class="input-group mb-3">
                 <select class="form-select" v-model="tanggalValue">
@@ -38,7 +40,7 @@ a.btInIsmynr1:hover{background-color:#006894;color:#fff}
                 </div>
             </template>
 
-            <button type="submit" @click="sub"  class="btn btn-primary">cek</button>
+            <button type="submit" @click="sub"  class="btn btn-primary">cek disini</button>
             <button type="submit" @click="reload"  class="btn btn-danger">Ulang</button>
             <div class="text-center mt-3">
                 <template v-if="nama.length > 0">
